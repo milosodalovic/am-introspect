@@ -1,11 +1,12 @@
 <template>
-  <div id="app">
-    <navbar></navbar>
-    <hero></hero>
-    <learn-more></learn-more>
-    <image-links></image-links>
-    <icon-links></icon-links>
-    <intro-form></intro-form></div>
+    <div id="app">
+        <!-- <navbar></navbar> -->
+        <!-- <hero></hero> -->
+        <!-- <learn-more></learn-more> -->
+        <!-- <image-links></image-links> -->
+        <icon-links></icon-links>
+        <intro-form></intro-form>
+    </div>
 </template>
 
 <script>
@@ -28,14 +29,3 @@ export default {
     }
 };
 </script>
-
-<style>
-#app {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-}
-</style>
