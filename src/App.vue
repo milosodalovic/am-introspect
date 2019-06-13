@@ -1,11 +1,12 @@
 <template>
     <div id="app">
-        <!-- <navbar></navbar> -->
+        <title>Introspect by TEMPLATED, Codeus</title>
+        <navbar></navbar>
         <!-- <hero></hero> -->
         <!-- <learn-more></learn-more> -->
         <!-- <image-links></image-links> -->
-        <icon-links></icon-links>
-        <intro-form></intro-form>
+        <!-- <icon-links></icon-links> -->
+        <!-- <intro-form></intro-form> -->
     </div>
 </template>
 
