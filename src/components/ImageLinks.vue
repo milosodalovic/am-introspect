@@ -41,22 +41,13 @@ img,
 article,
 header,
 section {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-article,
-header,
-section {
-    display: block;
+    font-family: "Lato", sans-serif;
 }
 
 p {
     margin: 0 0 2em 0;
+    font-weight: 300;
+    line-height: 2;
 }
 
 h3 {
@@ -68,21 +59,7 @@ h3 {
     color: #e5474b;
 }
 
-@media screen and (max-width: 736px) {
-    h3 {
-        font-size: 1.1em;
-    }
-}
-
 .image {
-    border-radius: 0;
-    border: 0;
-    display: inline-block;
-    position: relative;
-    img {
-        border-radius: 0;
-        display: block;
-    }
     &.fit {
         display: block;
         margin: 0 0 2em 0;
@@ -99,21 +76,11 @@ section .inner {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
-    section .inner {
-        max-width: 90%;
-        width: 90%;
-    }
-}
-
 #two {
     padding: 6em 0 4em 0;
+    background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
 
     .inner {
-        display: -ms-flexbox;
-        display: -moz-flex;
-        display: -webkit-flex;
-        display: -ms-flex;
         display: flex;
 
         flex-direction: row;
@@ -131,6 +98,7 @@ section .inner {
 
 @media screen and (max-width: 980px) {
     #two {
+        background: linear-gradient(to bottom, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
         padding: 4em 0 2em 0;
         .inner {
             flex-direction: column;
@@ -149,9 +117,21 @@ section .inner {
     }
 }
 
+@media screen and (max-width: 480px) {
+    section .inner {
+        max-width: 90%;
+        width: 90%;
+    }
+}
 @media screen and (max-width: 736px) {
     #two {
         padding: 2em 0 0.1em 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    h3 {
+        font-size: 1.1em;
     }
 }
 </style>
